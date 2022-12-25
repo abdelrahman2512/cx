@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/music145/BOT_MUSIC",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "kjvgkjvccjhBOT"
+    "BOT_USERNAME", "Music_Idlibbot"
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,16 +68,16 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "RWAN_5Y"
+    "CHANNEL_SUDO", "Zkra10"
 )  # معرف قناتك بدون @
 SUDO_USER = getenv(
-    "SUDO_USER", "https://t.me/Ahmed_KAREKA2"
+    "SUDO_USER", "https://t.me/Asdallil"
 )  # رابط حسابك
 YAFA_NAME = getenv(
     "YAFA_NAME", " ☾︎  𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐄𝐌𝐎  ☽︎ "
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/RWAN_5Y"
+   " YAFA_CHANNEL", "https://t.me/Zkra10"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/FTTUTY"
@@ -180,7 +180,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/8bbcfb13acce83dd0c1b5.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/f8101ac6e2319f7b8df1a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
