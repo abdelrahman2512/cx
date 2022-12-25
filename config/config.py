@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "17136300"))
-API_HASH = getenv("API_HASH", "924ec828546d5594a32e7d28b98dc77b")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5543773372:AAFiRtQ_uEIo-lPy74OmaW3ka2JoFA1mFmk")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SEMO1:SEMO1@cluster0.rusaedi.mongodb.net/?retryWrites=true&w=majority")
@@ -37,10 +37,10 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001813912108"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001829251756"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MUSIC SEMO")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "")
 
 # Your User ID.
 OWNER_ID = list(
@@ -59,7 +59,7 @@ UPSTREAM_REPO = getenv(
     "https://github.com/hsjsshjejeh/O",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "SEMO15SBOT"
+    "BOT_USERNAME", ""
 )  # معرف بوتك بدون @
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -68,16 +68,16 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "FTTUTY"
+    "CHANNEL_SUDO", ""
 )  # معرف قناتك بدون @
 SUDO_USER = getenv(
-    "SUDO_USER", "https://t.me/DEV_SAMIR"
+    "SUDO_USER", ""
 )  # رابط حسابك
 YAFA_NAME = getenv(
     "YAFA_NAME", " ☾︎  𝐒𝐎𝐔𝐑𝐂𝐄 𝐒𝐄𝐌𝐎  ☽︎ "
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/FTTUTY"
+   " YAFA_CHANNEL", ""
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/FTTUTY"
@@ -150,7 +150,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "AQBSGXIpVn94Eirs-Vgl9K509grrY78pNjCBEEOkAjPC5Kl5kvUp-7JuCEDDLbLc6xbPMTgXpJnxC5o-a51VtN1cACow8A6V8PhVfVn0Y7VldaCIm9tncIukFmxBkq3RzVtZmoNiTSoQIi1c8m_rSa9ejbkvzThZvt9da9jWPy3jAkMML4bhjySpIUoCoh75hxFMFeAdtFl8l7U4QiVeRE86gHIh2HrCR398j2qnboUgPZCUXUbMlafYiDUhiZd0qbxpfduvcFS5D-YLYX-yJfhSeVtdXM4BV5NynA0piuO_ehQ_HmaYxYmqwY3oyBIaDt600NqWKYIf5llhaY6BRkA3AAAAAVacDYEA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
