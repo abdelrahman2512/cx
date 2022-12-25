@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/FTTUTY"
 )  # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/U_X_M1"
+    "SUPPORT_GROUP", "https://t.me/Asdallil"
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -168,7 +168,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/aab3f0e659048b39ac1b9.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/f8101ac6e2319f7b8df1a.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
